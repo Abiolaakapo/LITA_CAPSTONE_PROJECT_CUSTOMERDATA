@@ -26,3 +26,10 @@ This project dataset provides a comprehensive details of customer subscription t
  - For Data Tranformation
  - Data Cleaning
  - Data Visualization
+
+ ### Data Cleaning And Preparations
+ The following action was carried out at the initial stage of data cleaning and Preparations.
+ - Data loading and transformation
+ - Data Cleaning and Formatting
+ - Handling missing Variables
+  
