@@ -44,5 +44,9 @@ This project dataset provides a comprehensive details of customer subscription t
   - Calculate total revenue by subscription type.
   - Find top three regions by subscription cancellations.
   - Find the total number of active and cancelled subscriptions.
+
+    ### Data Analysis
+    The data analysis was carried out using some select statements in SQL to query the data, Excel functions was used to calculate values 
+    such as Basic, Premium, Standard and total revenue generated.
    
   
