@@ -1,3 +1,4 @@
+
 ### LITA_CAPSTONE_PROJECT_CUSTOMERDATA
 This project aims to uncover customer data for a subscription company, study customer behaviour  and track subscription types. It also involves identifying key trends in cancellations and renewals to help make an informed and meaningful decisions.
 
@@ -33,6 +34,15 @@ This project dataset provides a comprehensive details of customer subscription t
  - Data Cleaning and Formatting.
  - Handling missing Variable.
 
-   ### Exploratory Data Analysis
+ ### Exploratory Data Analysis
+  The following are some of the analysis that was carried out.
+  - Retrieve the total number of customers from each region.
+  - Find the most popular subscription type by the number of customers.
+  - Find customers who cancelled their subscription within six months.
+  - Calculate the average subscription duration for all customers.
+  - Find customers with subscription longer than twelve months.
+  - Calculate total revenue by subscription type.
+  - Find top three regions by subscription cancellations.
+  - Find the total number of active and cancelled subscriptions.
    
   
