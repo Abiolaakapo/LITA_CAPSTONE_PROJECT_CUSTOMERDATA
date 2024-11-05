@@ -138,6 +138,7 @@ GROUP BY CustomerID
 ![image](https://github.com/user-attachments/assets/a61b3886-bd8a-4887-b88b-a1c390fbc99a)
 
 
+![image](https://github.com/user-attachments/assets/2979c057-bae4-4132-8f58-1c19d6029a4f)
 
 
 
