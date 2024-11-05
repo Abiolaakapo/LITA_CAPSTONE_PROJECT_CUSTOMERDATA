@@ -14,7 +14,7 @@ This project dataset provides a comprehensive details of customer subscription t
 - Cancelled: The termination of customer's subscsription plan.
 - Revenue: This the total amount generated from all subscribers.
 
-  ### Tools Used
+### Tools Used
   Microsoft Excel
   - For Data Cleaning
   - For Data Analyzing
@@ -23,6 +23,6 @@ This project dataset provides a comprehensive details of customer subscription t
   SQL: For Querying of Data
 
   Power BI
- -  For Data Tranformation
- -  Data Cleaning
- -  Data Visualization
+ - For Data Tranformation
+ - Data Cleaning
+ - Data Visualization
