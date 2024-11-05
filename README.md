@@ -16,20 +16,23 @@ This project dataset provides a comprehensive details of customer subscription t
 
 ### Tools Used
   Microsoft Excel
-  - For Data Cleaning
-  - For Data Analyzing
-  - For Data Visualization
+  - For Data Cleaning.
+  - For Data Analyzing.
+  - For Data Visualization.
 
-  SQL: For Querying of Data
+  SQL: For Querying of Data.
 
   Power BI
- - For Data Tranformation
- - Data Cleaning
- - Data Visualization
+ - For Data Tranformation.
+ - Data Cleaning.
+ - Data Visualization.
 
  ### Data Cleaning And Preparations
  The following action was carried out at the initial stage of data cleaning and Preparations.
- - Data loading and transformation
- - Data Cleaning and Formatting
- - Handling missing Variables
+ - Data loading and transformation.
+ - Data Cleaning and Formatting.
+ - Handling missing Variable.
+
+   ### Exploratory Data Analysis
+   
   
