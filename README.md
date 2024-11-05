@@ -8,8 +8,21 @@ This project dataset provides a comprehensive details of customer subscription t
 - CustomerID: This is a unique identifier of each customer.
 - CustomerName: This refers to the name of the customer.
 - Region: The geographical location where subscribers resides.
-- Subscrsiption Type: this refers to the bundle or the subscription plan available for customers such as Basic, Premium and Standard.
+- Subscrsiption Type: This refers to the bundle or the subscription plan available for customers such as Basic, Premium and Standard.
 - SubscriptionStart: This the start date of the subsciption plan.
 - SubscriptionEnd:  This the end date of the Subscription plan.
 - Cancelled: The termination of customer's subscsription plan.
 - Revenue: This the total amount generated from all subscribers.
+
+  ### Tools Used
+  Microsoft Excel
+  - For Data Cleaning
+  - For Data Analyzing
+  - For Data Visualization
+
+  SQL: For Querying of Data
+
+  Power BI
+ -  For Data Tranformation
+ -  Data Cleaning
+ -  Data Visualization
