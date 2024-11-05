@@ -141,6 +141,11 @@ GROUP BY CustomerID
 ![image](https://github.com/user-attachments/assets/2979c057-bae4-4132-8f58-1c19d6029a4f)
 
 
+![image](https://github.com/user-attachments/assets/b1f14725-03f0-4eaf-bd43-172bf982f0a8)
+
+
+
+
 
 ### Results
 From the Analysis carried out, results shows an interesting and incredible subscription patterns ranging from Basic, Premium and Standard in which all the customers subscribe to yearly with an impressive track records. With the subscription plans available, the Basic plan emerge as the most popular on the chart as the price was very affordable for all middle class group, resulting in a total of 50.01%. This outstanding results from Basic plan has strenghten our customer base across the nation. Next on the subscription plan is the Premium package with a percentage of 25.02% while the Standard package is 24.97%. Therefore, it was deduced that the Basic plan is still the most affordable plan for all. In addition, the region with the highest subscribers goes to the East which made them stood out amongst others regions whereby, they ocassionally cancel their subscription. Finally, the total revenue generated amount to 67,540, 175, approximately 68Million. This figure reflects our customers loyalty and satisfaction, fostering a stronger financial growth of the services rendered.
