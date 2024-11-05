@@ -122,6 +122,20 @@ GROUP BY CustomerID
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+### Results
+
+
   
 
 
