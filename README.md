@@ -47,6 +47,84 @@ This project dataset provides a comprehensive details of customer subscription t
 
     ### Data Analysis
     The data analysis was carried out using some select statements in SQL to query the data, Excel functions was used to calculate values 
-    such as Basic, Premium, Standard and total revenue generated.
+    such as Basic, Premium, Standard and total revenue generated while Power BI was used to visualize the data using DAX functions.
+
+   ```SQL 
+    SELECT * FROM [dbo].[LITA_CUSTOMERR_DATA]
+
+DELETE FROM [dbo].[LITA_CUSTOMERR_DATA]
+WHERE REGION IS NULL
+
+
+..........RETRIEVE THE TOTAL NUMBER OF CUSTOMER FROM EACH REGION.......
+
+SELECT REGION,
+COUNT(CustomerID) AS Total_Customers
+FROM [dbo].[LITA_CUSTOMERR_DATA]
+GROUP BY REGION
+
+........MOST POPULAR SUBSCRPTION TYPE BY THE NUMBER OF CUSTOMER.........
+
+SELECT Top 1 SubscriptionType,
+COUNT(CustomerID) AS TotalCustomers
+FROM [dbo].[LITA_CUSTOMERR_DATA]
+GROUP BY SubscriptionType
+
+
+..........CUSTOMER WHO CANCELLED THEIR SUBSCRIPTION WITHIN 6MONTHS...........
+SELECT CustomerID,Canceled
+FROM [dbo].[LITA_CUSTOMERR_DATA]
+WHERE (Canceled)<=6
+GROUP BY CustomerID,Canceled
+
+
+..........AVERAGE SUBSCRIPTION FOR ALL CUSTOMERS.............
+SELECT AVG(Datediff(Month,SubscriptionStart,SubscriptionEnd)) AS Average_Subscription
+FROM [dbo].[LITA_CUSTOMERR_DATA]
+
+
+............SUBSCRIPTION LONGER THAN 12 MONTHS..............
+SELECT CustomerID
+FROM [dbo].[LITA_CUSTOMERR_DATA]
+WHERE Datediff(Month,SubscriptionStart,SubscriptionEnd)>12
+
+
+.........TOTAL REVENUE BY SUBSCSRIPTION TYPE
+SELECT SubscriptionType,
+SUM(Revenue) AS Total_Revenue
+FROM [dbo].[LITA_CUSTOMERR_DATA]
+GROUP BY SubscriptionType
+
+
+..........TOP THREE REGION BY SUBSCRIPTION CANCELLATIONS.........
+SELECT TOP 3 Region,
+COUNT(SubscriptionEnd) AS Canceled
+FROM [dbo].[LITA_CUSTOMERR_DATA]
+WHERE SubscriptionEnd IS NULL
+GROUP BY Region 
+
+
+....... TOTAL NUMBER OF ACTIVE AND CANCELLED SUBSCRIPTTION.......
+SELECT CustomerID,
+COUNT(SubscriptionStart) AS Active_Customer
+FROM [dbo].[LITA_CUSTOMERR_DATA]
+GROUP BY CustomerID
+
+
+SELECT CustomerID,
+COUNT(Canceled) AS Canceled
+FROM [dbo].[LITA_CUSTOMERR_DATA]
+GROUP BY CustomerID
+```
+
+
+
+
+  
+
+
+
+
+    
    
   
