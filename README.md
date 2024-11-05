@@ -121,6 +121,7 @@ GROUP BY CustomerID
 
 ### Data Visualization
 
+![image](https://github.com/user-attachments/assets/9e607c35-ab0f-46d4-90dc-a26b87775dd6)
 
 
 
