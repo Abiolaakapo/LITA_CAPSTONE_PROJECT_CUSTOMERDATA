@@ -126,6 +126,10 @@ GROUP BY CustomerID
 
 
 
+![image](https://github.com/user-attachments/assets/bb652ba2-4aff-4063-972a-2ccaec104e52)
+
+
+
 
 
 
